@@ -325,8 +325,6 @@ Text Label 10850 2650 2    60   ~ 0
 TX
 Text Label 10850 2750 2    60   ~ 0
 RX
-Text Label 10850 3450 2    60   ~ 0
-A/X_DIR
 Text Label 10850 3350 2    60   ~ 0
 A/X_DIR
 Text Label 10850 3250 2    60   ~ 0
@@ -795,17 +793,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 1750 14900 1750
 Wire Wire Line
-	14900 2250 14900 2150
-Wire Wire Line
 	14350 3400 14950 3400
-Wire Wire Line
-	14950 3400 14950 3300
 Wire Wire Line
 	14950 3300 14350 3300
 Wire Wire Line
 	14350 4450 14950 4450
-Wire Wire Line
-	14950 4450 14950 4550
 Wire Wire Line
 	14950 4550 14350 4550
 Wire Wire Line
@@ -870,8 +862,6 @@ Wire Wire Line
 	10300 3350 10850 3350
 Wire Wire Line
 	10300 3250 10850 3250
-Wire Wire Line
-	10300 3150 10850 3150
 Wire Wire Line
 	10300 3050 10850 3050
 Wire Wire Line
@@ -1531,4 +1521,20 @@ Text Label 1500 5000 1    60   ~ 0
 SDA1
 Text Label 1850 5000 1    60   ~ 0
 SCL1
+Text Label 14900 2150 2    60   ~ 0
+3v3
+Text Label 14900 2250 2    60   ~ 0
+3v3
+Text Label 14950 3300 2    60   ~ 0
+3v3
+Text Label 14950 3400 2    60   ~ 0
+3v3
+Text Label 14950 4450 2    60   ~ 0
+3v3
+Text Label 14950 4550 2    60   ~ 0
+3v3
+Wire Wire Line
+	10300 3150 10850 3150
+Text Label 10850 3450 2    60   ~ 0
+A/X_STEP
 $EndSCHEMATC
