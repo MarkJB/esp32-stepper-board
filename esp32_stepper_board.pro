@@ -1,4 +1,4 @@
-update=Tue 06 Mar 2018 23:50:39 GMT
+update=Wed 07 Mar 2018 00:10:51 GMT
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,8 +61,6 @@ LibName31=contrib
 LibName32=valves
 LibName33=custom
 LibName34=/home/mark/Documents/github/pi-zero-stepper-board/libs/custom_parts
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -73,3 +71,5 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
