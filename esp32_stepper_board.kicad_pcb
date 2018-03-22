@@ -3,7 +3,7 @@
   (general
     (links 122)
     (no_connects 0)
-    (area 40.818999 32.436999 140.918001 102.818001)
+    (area 100.762999 63.271138 200.862001 135.530001)
     (thickness 1.6)
     (drawings 6)
     (tracks 906)
@@ -1292,7 +1292,7 @@
       (net 22 /B/Y_A2))
   )
 
-  (module Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight (layer F.Cu) (tedit 5AA6E4C1) (tstamp 5AA5AA06)
+  (module Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight (layer F.Cu) (tedit 5AB43159) (tstamp 5AA5AA06)
     (at 159.766 75.184 180)
     (descr http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)
     (tags "connector jst ph")
@@ -1300,7 +1300,7 @@
     (fp_text reference J6 (at -3.048 -1.397 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Stepper C/Y" (at 2.921 -3.048 180) (layer F.SilkS)
+    (fp_text value "Stepper C/Z" (at 2.921 -3.048 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.95 2.8) (end -1.95 -1.7) (layer F.SilkS) (width 0.15))
