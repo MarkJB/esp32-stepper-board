@@ -32,7 +32,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:custom
-LIBS:custom_parts
 LIBS:esp32_stepper_board-cache
 EELAYER 25 0
 EELAYER END
@@ -299,17 +298,17 @@ C/Z_B2
 $Comp
 L Jack-DC J2
 U 1 1 5A64C62C
-P 7800 10300
-F 0 "J2" H 7800 10510 50  0000 C CNN
-F 1 "DC_PWR" H 7800 10125 50  0000 C CNN
-F 2 "Connect:BARREL_JACK" H 7850 10260 50  0001 C CNN
-F 3 "" H 7850 10260 50  0001 C CNN
-	1    7800 10300
+P 8150 10300
+F 0 "J2" H 8150 10510 50  0000 C CNN
+F 1 "DC_PWR" H 8150 10125 50  0000 C CNN
+F 2 "Connect:BARREL_JACK" H 8200 10260 50  0001 C CNN
+F 3 "" H 8200 10260 50  0001 C CNN
+	1    8150 10300
 	1    0    0    -1  
 $EndComp
-Text Label 8450 10400 2    60   ~ 0
+Text Label 8800 10400 2    60   ~ 0
 GND
-Text Label 8450 10200 2    60   ~ 0
+Text Label 8800 10200 2    60   ~ 0
 Vin
 $Comp
 L OLED_I2C U8
@@ -492,24 +491,11 @@ Text Label 5000 3550 0    60   ~ 0
 RENC_CLK
 Text Label 5000 3350 0    60   ~ 0
 RENC_DT
-$Comp
-L Conn_02x06_Odd_Even J1
-U 1 1 5AA0C7C0
-P 6500 10150
-F 0 "J1" H 6550 10450 50  0000 C CNN
-F 1 "Aux2_GPIO" H 6550 9750 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B12B-PH-K_12x2.00mm_Straight" H 6500 10150 50  0001 C CNN
-F 3 "" H 6500 10150 50  0001 C CNN
-	1    6500 10150
-	1    0    0    -1  
-$EndComp
-Text Label 7200 10150 2    60   ~ 0
+Text Label 7000 9850 3    60   ~ 0
 GND
-Text Label 5900 10250 0    60   ~ 0
-GND
-Text Label 7200 10250 2    60   ~ 0
+Text Label 7600 9850 3    60   ~ 0
 3v3
-Text Label 5900 10150 0    60   ~ 0
+Text Label 6550 9850 3    60   ~ 0
 5v
 Text Label 4200 6750 2    60   ~ 0
 GPIO_EX0
@@ -527,40 +513,40 @@ Text Label 4200 7350 2    60   ~ 0
 GPIO_EX6
 Text Label 4200 7450 2    60   ~ 0
 GPIO_EX7
-Text Label 5900 9950 0    60   ~ 0
+Text Label 5800 9850 3    60   ~ 0
 GPIO_EX0
-Text Label 7200 9950 2    60   ~ 0
+Text Label 5900 9850 3    60   ~ 0
 GPIO_EX1
-Text Label 5900 10050 0    60   ~ 0
+Text Label 6000 9850 3    60   ~ 0
 GPIO_EX2
-Text Label 7200 10050 2    60   ~ 0
+Text Label 6100 9850 3    60   ~ 0
 GPIO_EX3
-Text Label 5900 10350 0    60   ~ 0
+Text Label 7100 9850 3    60   ~ 0
 GPIO_EX4
-Text Label 7200 10350 2    60   ~ 0
+Text Label 7200 9850 3    60   ~ 0
 GPIO_EX5
-Text Label 5900 10450 0    60   ~ 0
+Text Label 7300 9850 3    60   ~ 0
 GPIO_EX6
-Text Label 7200 10450 2    60   ~ 0
+Text Label 7400 9850 3    60   ~ 0
 GPIO_EX7
 $Comp
 L Conn_01x04 J10
 U 1 1 5AA0F0CE
-P 5300 10450
-F 0 "J10" H 5300 10650 50  0000 C CNN
-F 1 "Aux1_I2C" V 5400 10400 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 5300 10450 50  0001 C CNN
-F 3 "" H 5300 10450 50  0001 C CNN
-	1    5300 10450
+P 5200 10450
+F 0 "J10" H 5200 10650 50  0000 C CNN
+F 1 "Aux1_I2C" V 5300 10400 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 5200 10450 50  0001 C CNN
+F 3 "" H 5200 10450 50  0001 C CNN
+	1    5200 10450
 	0    1    1    0   
 $EndComp
-Text Label 5400 9950 3    60   ~ 0
-GND
-Text Label 5200 9950 3    60   ~ 0
-3v3
 Text Label 5300 9950 3    60   ~ 0
-SDA1
+GND
 Text Label 5100 9950 3    60   ~ 0
+3v3
+Text Label 5200 9950 3    60   ~ 0
+SDA1
+Text Label 5000 9950 3    60   ~ 0
 SCL1
 $Comp
 L R R2
@@ -626,17 +612,17 @@ IO0
 $Comp
 L Conn_01x02 J11
 U 1 1 5AA42D41
-P 8950 10450
-F 0 "J11" H 8950 10550 50  0000 C CNN
-F 1 "IO0_IO2_JP" V 9050 10400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8950 10450 50  0001 C CNN
-F 3 "" H 8950 10450 50  0001 C CNN
-	1    8950 10450
+P 9100 10450
+F 0 "J11" H 9100 10550 50  0000 C CNN
+F 1 "IO0_IO2_JP" V 9200 10400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9100 10450 50  0001 C CNN
+F 3 "" H 9100 10450 50  0001 C CNN
+	1    9100 10450
 	0    1    1    0   
 $EndComp
-Text Label 8850 9900 3    60   ~ 0
+Text Label 9000 9900 3    60   ~ 0
 IO0
-Text Label 8950 9900 3    60   ~ 0
+Text Label 9100 9900 3    60   ~ 0
 SD_MOSI
 $Comp
 L LM1117-5.0 U1
@@ -842,9 +828,9 @@ Wire Wire Line
 Wire Wire Line
 	3250 9950 3250 10250
 Wire Wire Line
-	8100 10400 8450 10400
+	8450 10400 8800 10400
 Wire Wire Line
-	8100 10200 8450 10200
+	8450 10200 8800 10200
 Wire Wire Line
 	6200 6950 5800 6950
 Wire Wire Line
@@ -981,37 +967,13 @@ Wire Wire Line
 Wire Wire Line
 	5500 2450 5000 2450
 Wire Wire Line
-	6300 9950 5900 9950
-Wire Wire Line
-	6800 9950 7200 9950
-Wire Wire Line
-	6300 10050 5900 10050
-Wire Wire Line
-	6300 10150 5900 10150
-Wire Wire Line
-	6300 10250 5900 10250
-Wire Wire Line
-	6300 10350 5900 10350
-Wire Wire Line
-	6300 10450 5900 10450
-Wire Wire Line
-	6800 10050 7200 10050
-Wire Wire Line
-	6800 10150 7200 10150
-Wire Wire Line
-	6800 10250 7200 10250
-Wire Wire Line
-	6800 10350 7200 10350
-Wire Wire Line
-	6800 10450 7200 10450
-Wire Wire Line
-	5400 10250 5400 9950
-Wire Wire Line
 	5300 10250 5300 9950
 Wire Wire Line
 	5200 10250 5200 9950
 Wire Wire Line
 	5100 10250 5100 9950
+Wire Wire Line
+	5000 10250 5000 9950
 Wire Notes Line
 	10150 5600 10150 7200
 Wire Notes Line
@@ -1039,9 +1001,9 @@ Wire Wire Line
 Wire Wire Line
 	7350 3650 7900 3650
 Wire Wire Line
-	8950 9900 8950 10250
+	9100 9900 9100 10250
 Wire Wire Line
-	8850 9900 8850 10250
+	9000 9900 9000 10250
 Wire Notes Line
 	9400 10750 9400 9600
 Wire Wire Line
@@ -1144,4 +1106,98 @@ Wire Notes Line
 	4550 1450 4550 3700
 Text Label 4300 2000 2    60   ~ 0
 5v
+$Comp
+L Conn_01x06 J1
+U 1 1 5AB7CE2D
+P 5900 10450
+F 0 "J1" H 5900 10750 50  0000 C CNN
+F 1 "AUX_2A_GPIO_LN" V 6000 10400 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B6B-PH-K_06x2.00mm_Straight" H 5900 10450 50  0001 C CNN
+F 3 "" H 5900 10450 50  0001 C CNN
+	1    5900 10450
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x06 J13
+U 1 1 5AB7CF32
+P 7200 10450
+F 0 "J13" H 7200 10750 50  0000 C CNN
+F 1 "AUX_2B_GPIO_HN" V 7300 10400 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B6B-PH-K_06x2.00mm_Straight" H 7200 10450 50  0001 C CNN
+F 3 "" H 7200 10450 50  0001 C CNN
+	1    7200 10450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 9850 5600 10250
+Wire Wire Line
+	5700 9850 5700 10250
+Wire Wire Line
+	5800 9850 5800 10250
+Wire Wire Line
+	5900 9850 5900 10250
+Wire Wire Line
+	6000 9850 6000 10250
+Wire Wire Line
+	6100 9850 6100 10250
+Wire Wire Line
+	6900 9850 6900 10250
+Wire Wire Line
+	7000 9850 7000 10250
+Wire Wire Line
+	7100 9850 7100 10250
+Wire Wire Line
+	7200 9850 7200 10250
+Wire Wire Line
+	7300 9850 7300 10250
+Wire Wire Line
+	7400 9850 7400 10250
+Text Label 5600 9850 3    60   ~ 0
+PWR1
+Text Label 5700 9850 3    60   ~ 0
+GND
+Text Label 6900 9850 3    60   ~ 0
+PWR2
+$Comp
+L Conn_01x03 J12
+U 1 1 5AB7F4B6
+P 6450 10450
+F 0 "J12" H 6450 10650 50  0000 C CNN
+F 1 "PWRSEL_2A" V 6550 10450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6450 10450 50  0001 C CNN
+F 3 "" H 6450 10450 50  0001 C CNN
+	1    6450 10450
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x03 J14
+U 1 1 5AB7F53B
+P 7700 10450
+F 0 "J14" H 7700 10650 50  0000 C CNN
+F 1 "PWRSEL_2B" V 7800 10500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 7700 10450 50  0001 C CNN
+F 3 "" H 7700 10450 50  0001 C CNN
+	1    7700 10450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 10250 6450 9850
+Wire Wire Line
+	6350 10250 6350 9850
+Wire Wire Line
+	6550 10250 6550 9850
+Wire Wire Line
+	7600 10250 7600 9850
+Wire Wire Line
+	7700 9850 7700 10250
+Wire Wire Line
+	7800 10250 7800 9850
+Text Label 6350 9850 3    60   ~ 0
+3v3
+Text Label 7800 9850 3    60   ~ 0
+5v
+Text Label 7700 9850 3    60   ~ 0
+PWR2
+Text Label 6450 9850 3    60   ~ 0
+PWR1
 $EndSCHEMATC
