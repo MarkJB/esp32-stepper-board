@@ -1,4 +1,4 @@
-update=Thu 22 Mar 2018 22:52:18 GMT
+update=Sun 25 Mar 2018 17:30:45 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=/home/mark/Documents/github/esp32-stepper-board/custom.pretty
+LibDir=/home/mark/Documents/github/esp32-stepper-board/custom.pretty;/home/mark/Apps/kicad/kicad-library-4.0.7;/home/mark/Apps/kicad/kicad-library-4.0.7/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,16 +62,13 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=custom
-LibName34=/home/mark/Documents/github/pi-zero-stepper-board/libs/custom_parts
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
 PlotDirectoryName=/home/mark/Documents/github/esp32-stepper-board/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
