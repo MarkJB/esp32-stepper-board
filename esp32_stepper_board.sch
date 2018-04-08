@@ -39,8 +39,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "ESP32-DEVKITC Hanging V Plotter Drawing Machine"
-Date "2018-03-11"
-Rev "0.1A"
+Date "2018-04-08"
+Rev "0.1B"
 Comp "Mark Benson"
 Comment1 "Licence CC BY-SA 3.0"
 Comment2 "Pre-release test layout, the plan is to make a PCB to make SW development a bit easier."
