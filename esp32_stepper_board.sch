@@ -78,7 +78,7 @@ Text Label 5000 3450 0    60   ~ 0
 GND
 Text Label 7900 2150 2    60   ~ 0
 GND
-Text Label 7900 2250 2    60   ~ 0
+Text Label 7900 2750 2    60   ~ 0
 GND
 Text Label 5000 2150 0    60   ~ 0
 3v3
@@ -195,9 +195,9 @@ Text Label 14950 4750 2    60   ~ 0
 C/Z_DIR
 Text Label 7900 3350 2    60   ~ 0
 ~STEP_EN
-Text Label 7900 2550 2    60   ~ 0
+Text Label 7900 2450 2    60   ~ 0
 TX
-Text Label 7900 2650 2    60   ~ 0
+Text Label 7900 2550 2    60   ~ 0
 RX
 Text Label 7900 3150 2    60   ~ 0
 A/X_DIR
@@ -207,7 +207,7 @@ Text Label 7900 2950 2    60   ~ 0
 B/Y_DIR
 Text Label 7900 2850 2    60   ~ 0
 C/Z_STEP
-Text Label 7900 2750 2    60   ~ 0
+Text Label 7900 2650 2    60   ~ 0
 C/Z_DIR
 Text Label 7900 2350 2    60   ~ 0
 SERVO
@@ -485,7 +485,7 @@ Text Label 5000 2450 0    60   ~ 0
 ~ES_B/Y
 Text Label 5000 2550 0    60   ~ 0
 ~ES_C/Z
-Text Label 7900 2450 2    60   ~ 0
+Text Label 7900 2250 2    60   ~ 0
 ~RENC_SW
 Text Label 5000 3550 0    60   ~ 0
 RENC_CLK
